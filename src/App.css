@@ -1,0 +1,38 @@
+.image.is-4by3 img {
+  height: 150px;
+}
+
+.image.is-4by3 {
+  padding-top: 150px;
+}
+
+.card .media:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.hero-body {
+  background-color: #e6acff;
+}
+
+.hero-body a {
+  font-size: 50px;
+  font-weight: bolder;
+  text-decoration: none;
+  background: #000000;
+  background: linear-gradient(#be32f5 100%, #000000 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-body a:hover {
+  transition: all 0.7s;
+  opacity: 0.6;
+}
+
+.title.is-4  {
+  color: #be32f5;
+}
+
+.column {
+  cursor: pointer;
+}
